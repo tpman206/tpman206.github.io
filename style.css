@@ -1,0 +1,175 @@
+body {
+  background: url(../images/bg_color.png) repeat;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14.666px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#mainContainer {
+  height: 150vh;
+}
+.header {
+  border: 1px solid #c8ccc0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 980px;
+  max-height: 112px;
+  margin: 0 auto;
+  background-color: #f6f6ec;
+  margin-top: 6px;
+}
+.textInput {
+  width: 475px;
+  height: 26px;
+}
+#headImg {
+  height: 23px;
+  width: 246px;
+}
+#headImg:hover {
+  border-bottom: 2px solid #185518;
+}
+
+input {
+  border-radius: 13px;
+  border: 1px solid #c8ccc0;
+  padding: 0 7px;
+  background-color: white;
+}
+.textSearch input:last-child:hover {
+  background: #e8ece0;
+  cursor: pointer;
+}
+.textSearch input:nth-child(2) {
+  width: 62.39px;
+  height: 26px;
+}
+#head1 {
+  padding-top: 10px;
+}
+.head2 {
+  margin-top: 0px;
+}
+.textSearch {
+  margin-top: -10px;
+}
+#head1 a {
+  text-decoration: none;
+  color: #181870;
+}
+span:nth-child(2),
+:nth-child(4) {
+  font-weight: bold;
+}
+
+#head1 a:hover,
+.forumTitle a:hover {
+  text-decoration: underline;
+}
+
+.image {
+  max-height: 25px;
+}
+
+.forumTitle {
+  width: 980px;
+  height: 150px;
+  border: 1px solid #c8ccc0;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.ehead {
+  position: relative;
+  top: -26.5px;
+  padding: 6px 6px;
+  background-color: #e8ece0;
+  margin-left: -11px;
+  margin-right: -11px;
+  border: 1px solid #c8ccc0;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-top: 0;
+  text-align: center;
+}
+.forumTitle a {
+  color: #181870;
+  text-decoration: none;
+  font-weight: 650;
+}
+.linkHead {
+  position: relative;
+  top: -40px;
+}
+.linkHead3 {
+  position: relative;
+  top: -30px;
+  background-color: #e8ece0;
+  margin-left: -11px;
+  margin-right: -11px;
+  padding: 10px;
+  border: 1px solid #c8ccc0;
+}
+.linkHead4 {
+  position: relative;
+  top: -20px;
+}
+.imageAd {
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+
+  height: 130px;
+  width: 990px;
+}
+.imageAd img {
+  display: inline-block;
+  margin: 3px;
+  border: 1px solid #c8ccc0;
+  border-radius: 15px;
+  padding: 0;
+}
+.imageAd img:hover {
+  cursor: pointer;
+}
+
+table {
+  display: block;
+}
+.hi {
+  border: 10px solid;
+  position: relative;
+  left: 280px;
+}
+.contenHeading {
+  margin-top: 30px;
+  height: 50vh;
+}
+.topic {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.topic a {
+  font-weight: 600;
+  font-size: 20px;
+}
+.foot {
+  margin-top: 60px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.footno {
+  left: 380px;
+}
+.imagefoot {
+  top: -10px;
+}
