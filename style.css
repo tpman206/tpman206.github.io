@@ -18,7 +18,7 @@ body {
   height: 2.7rem;
 }
 .header {
-  width: 98.015%;
+  width: 95.915%;
   border: 1px solid #c8ccc0;
   border-radius: 10px;
   background: #f6f6ec;
@@ -54,10 +54,10 @@ input {
   cursor: pointer;
 }
 .textSearch input:nth-child(2) {
-  width: 71.39px;
+  width: 73.39px;
   height: 26px;
   padding: 2px 7px;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 #head1 a {
   text-decoration: none;
@@ -80,7 +80,7 @@ span:nth-child(2),
   top: -15px;
 }
 .forumTitle {
-  width: 98.015%;
+  width: 95.915%;
   border: 1px solid #c8ccc0;
   border-radius: 10px;
 
@@ -182,5 +182,21 @@ table {
 .flex {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+.desktopView {
+  display: none;
+}
+.mobile {
+  margin-top: 20px;
+}
+
+/* desktop view */
+@media screen and (min-width: 950px) {
+  .desktopView {
+    display: block;
+    margin-top: 20px;
+  }
+  .mobile {
+    display: none;
+  }
 }
