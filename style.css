@@ -1,38 +1,48 @@
+html {
+  font-size: 62.5%;
+}
 body {
-  background: url(../images/bg_color.png) repeat;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  font-size: 14.666px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: url("./images/bg_color.png") repeat;
+  font-size: 1.5rem;
 }
 #mainContainer {
-  height: 150vh;
+  height: 200vh;
+}
+.image a img {
+  width: 24.6rem;
+  height: 2.7rem;
 }
 .header {
+  width: 98.015%;
   border: 1px solid #c8ccc0;
   border-radius: 10px;
+  background: #f6f6ec;
+  padding: 6px 8px;
+  padding-bottom: 0;
   text-align: center;
-  padding: 10px;
-  width: 980px;
-  max-height: 112px;
   margin: 0 auto;
-  background-color: #f6f6ec;
-  margin-top: 6px;
+  margin-top: 7px;
+  box-sizing: border-box;
 }
 .textInput {
-  width: 475px;
+  height: 100%;
+  width: 50%;
+  max-width: 70%;
+}
+.textSearch {
   height: 26px;
-}
-#headImg {
-  height: 23px;
-  width: 246px;
-}
-#headImg:hover {
-  border-bottom: 2px solid #185518;
-}
+  width: 100%;
+  position: relative;
+  top: -20px;
+  margin-bottom: 0;
 
+  margin-bottom: -10px;
+}
 input {
   border-radius: 13px;
   border: 1px solid #c8ccc0;
@@ -44,17 +54,10 @@ input {
   cursor: pointer;
 }
 .textSearch input:nth-child(2) {
-  width: 62.39px;
+  width: 71.39px;
   height: 26px;
-}
-#head1 {
-  padding-top: 10px;
-}
-.head2 {
-  margin-top: 0px;
-}
-.textSearch {
-  margin-top: -10px;
+  padding: 2px 7px;
+  font-size: 1.8rem;
 }
 #head1 a {
   text-decoration: none;
@@ -69,22 +72,23 @@ span:nth-child(2),
 .forumTitle a:hover {
   text-decoration: underline;
 }
-
-.image {
-  max-height: 25px;
+.header p {
+  margin-top: 5px;
 }
-
+.head2 {
+  position: relative;
+  top: -15px;
+}
 .forumTitle {
-  width: 980px;
-  height: 150px;
+  width: 98.015%;
   border: 1px solid #c8ccc0;
   border-radius: 10px;
 
   padding: 10px;
   margin: 0 auto;
   margin-top: 10px;
+  box-sizing: border-box;
 }
-
 .ehead {
   position: relative;
   top: -26.5px;
@@ -98,6 +102,13 @@ span:nth-child(2),
   border-top-right-radius: 12px;
   border-top: 0;
   text-align: center;
+}
+.ehead2 {
+  top: -15px;
+}
+
+td {
+  display: inline;
 }
 .forumTitle a {
   color: #181870;
@@ -120,14 +131,14 @@ span:nth-child(2),
 .linkHead4 {
   position: relative;
   top: -20px;
+  margin-bottom: -20px;
 }
 .imageAd {
   position: relative;
-  margin: 0 auto;
   top: 10px;
 
   height: 130px;
-  width: 990px;
+  width: 100%;
 }
 .imageAd img {
   display: inline-block;
@@ -136,6 +147,9 @@ span:nth-child(2),
   border-radius: 15px;
   padding: 0;
 }
+.desktop {
+  display: none;
+}
 .imageAd img:hover {
   cursor: pointer;
 }
@@ -143,15 +157,7 @@ span:nth-child(2),
 table {
   display: block;
 }
-.hi {
-  border: 10px solid;
-  position: relative;
-  left: 280px;
-}
-.contenHeading {
-  margin-top: 30px;
-  height: 50vh;
-}
+
 .topic {
   text-align: center;
   margin-bottom: 10px;
@@ -172,4 +178,9 @@ table {
 }
 .imagefoot {
   top: -10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
