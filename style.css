@@ -191,7 +191,7 @@ table {
 }
 
 /* desktop view */
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1050px) {
   .desktopView {
     display: block;
     margin-top: 20px;
